@@ -1,0 +1,144 @@
+<linker>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BongoCatDuels.UI.DefaultNotifyCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.LoseDuelCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.DuelSceneController" preserve="all" />
+    <type fullname="BongoCatDuels.Animation.EndBlackImageAnimation" preserve="all" />
+    <type fullname="BongoCatDuels.Animation.DefaultAnimatorController" preserve="all" />
+    <type fullname="BongoCatDuels.UI.DuelInfoCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.PlayerHitsManager" preserve="all" />
+    <type fullname="BongoCatDuels.UI.WinDuelWindow" preserve="all" />
+    <type fullname="BongoCatDuels.PlayerShotCoroutine" preserve="all" />
+    <type fullname="BongoCatDuels.SpawnerEnemyGun" preserve="all" />
+    <type fullname="BongoCatDuels.UI.WinDuelCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.Audio.DefaultAudioManager" preserve="all" />
+    <type fullname="BongoCatDuels.Animation.DefaultCatAnimator" preserve="all" />
+    <type fullname="BongoCatDuels.Localization.LocalizationButtonsText" preserve="all" />
+    <type fullname="BongoCatDuels.DefaultDuelController" preserve="all" />
+    <type fullname="BongoCatDuels.Data.IconSprites" preserve="all" />
+    <type fullname="BongoCatDuels.DestroyerGun" preserve="all" />
+    <type fullname="BongoCatDuels.Audio.SoundPlayer" preserve="all" />
+    <type fullname="BongoCatDuels.Animation.ChurchClockAnimation" preserve="all" />
+    <type fullname="BongoCatDuels.Animation.StarBlackImageAnimation" preserve="all" />
+    <type fullname="BongoCatDuels.UI.EndDuelExpWindow" preserve="all" />
+    <type fullname="BongoCatDuels.EnemyShotCoroutine" preserve="all" />
+    <type fullname="BongoCatDuels.DefaultCat" preserve="all" />
+    <type fullname="BongoCatDuels.DefaultGameController" preserve="all" />
+    <type fullname="BongoCatDuels.UI.EnemyUnlockWindow" preserve="all" />
+    <type fullname="BongoCatDuels.Audio.HitCatSound" preserve="all" />
+    <type fullname="BongoCatDuels.Animation.DamageTextAnimator" preserve="all" />
+    <type fullname="ImageButtonUpdater" preserve="all" />
+    <type fullname="BongoCatDuels.UI.TextUpdater" preserve="all" />
+    <type fullname="BongoCatDuels.UI.LoseWindow" preserve="all" />
+    <type fullname="BongoCatDuels.UI.NoMoneyNotify" preserve="all" />
+    <type fullname="BongoCatDuels.EnemyHitsManager" preserve="all" />
+    <type fullname="BongoCatDuels.UI.DuelOptionsWindow" preserve="all" />
+    <type fullname="BongoCatDuels.UI.TextButtonChanger" preserve="all" />
+    <type fullname="BongoCatDuels.UI.GameSpeedNotify" preserve="all" />
+    <type fullname="BongoCatDuels.UI.CatsHPSlidersCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.MoneyWindow" preserve="all" />
+    <type fullname="BongoCatDuels.SpawnerPlayerGun" preserve="all" />
+    <type fullname="BongoCatDuels.UI.DefaultSlider" preserve="all" />
+    <type fullname="BongoCatDuels.UI.DuelCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.GunCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.EnemysContent" preserve="all" />
+    <type fullname="BongoCatDuels.UI.PointsNotify" preserve="all" />
+    <type fullname="BongoCatDuels.UI.HubNotifyCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.PlayerInfoCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.PointsWindow" preserve="all" />
+    <type fullname="BongoCatDuels.UI.AdWasDisableNotify" preserve="all" />
+    <type fullname="BongoCatDuels.UI.HubSkinWindow" preserve="all" />
+    <type fullname="BongoCatDuels.HubSceneController" preserve="all" />
+    <type fullname="BongoCatDuels.UI.PlayerInfoWindow" preserve="all" />
+    <type fullname="BongoCatDuels.UI.NicknameWindow" preserve="all" />
+    <type fullname="BongoCatDuels.UI.HubSkinCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.GunUpgradeNotify" preserve="all" />
+    <type fullname="BongoCatDuels.UI.InfoCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.ScrollViewListener" preserve="all" />
+    <type fullname="BongoCatDuels.UI.DuelWindow" preserve="all" />
+    <type fullname="BongoCatDuels.UI.DuelNotify" preserve="all" />
+    <type fullname="BongoCatDuels.UI.PointsCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.UI.GunWindow" preserve="all" />
+    <type fullname="BongoCatDuels.UI.ScrollViewUnit" preserve="all" />
+    <type fullname="BongoCatDuels.UI.BuyNoAdNotify" preserve="all" />
+    <type fullname="BongoCatDuels.MainMenuSceneController" preserve="all" />
+    <type fullname="BongoCatDuels.UI.MenuCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.SkinSceneController" preserve="all" />
+    <type fullname="BongoCatDuels.UI.SkinSelectedCanvas" preserve="all" />
+    <type fullname="BongoCatDuels.LoadSceneController" preserve="all" />
+    <type fullname="BongoCatDuels.Localization.LanguagePack" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.MonoScript" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Purchasing.IAPButton" preserve="all" />
+  </assembly>
+</linker>
