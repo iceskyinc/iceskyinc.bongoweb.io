@@ -13,15 +13,16 @@
 	  function InitAd() 
 {
 window.addEventListener('load', function() {
+    console.log("Start ad load...");	
  
     var user_id = null; // user's id
     var app_id = 7776768; // your app's id
  
     admanInit({
         user_id: user_id,
-        app_id: app_id,
+        app_id: 7776768,
         // mobile: true, // for mobile apps
-        params: {preview: 1}, // to verify the correct operation of advertising
+        //params: {preview: 1}, // to verify the correct operation of advertising
         type: 'preloader' // 'preloader' or 'rewarded' (default - 'preloader')
     }, onAdsReady, onNoAds);
  
