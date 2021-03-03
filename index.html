@@ -32,11 +32,11 @@
          }, onAdsReady, onNoAds);
          
          function onAdsReady(adman) {
-           adman.onStarted(function () {/*console.log('Ad started...');*/});
-           adman.onCompleted(function() {/*console.log('Ad completed...');*/});
-           adman.onSkipped(function() {/*console.log('Ad skipped...');*/});
-           adman.onClicked(function() {/*console.log('Ad clicked...');*/});
-           adman.start('preroll');
+           adman.onStarted(function () {console.log('Ad started...');});
+           adman.onCompleted(function() {console.log('Ad completed...');});
+           adman.onSkipped(function() {console.log('Ad skipped...');});
+           adman.onClicked(function() {console.log('Ad clicked...');});
+           adman.start('preloader');
          };
          
          function onNoAds() {/*console.log('No ad...');*/};
