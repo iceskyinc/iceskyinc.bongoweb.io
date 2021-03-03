@@ -27,14 +27,14 @@
          }, onAdsReady, onNoAds);
          
          function onAdsReady(adman) {
-           adman.onStarted(function () {console.log('Ad started...');});
-           adman.onCompleted(function() {console.log('Ad completed...');});
-           adman.onSkipped(function() {console.log('Ad skipped...');});
-           adman.onClicked(function() {console.log('Ad clicked...');});
+           adman.onStarted(function () {/*console.log('Ad started...');*/});
+           adman.onCompleted(function() {/*console.log('Ad completed...');*/});
+           adman.onSkipped(function() {/*console.log('Ad skipped...');*/});
+           adman.onClicked(function() {/*console.log('Ad clicked...');*/});
            adman.start('preroll');
          };
          
-         function onNoAds() {console.log('No ad...');};
+         function onNoAds() {/*console.log('No ad...');*/};
          });
          }
       </script>
