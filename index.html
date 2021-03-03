@@ -14,6 +14,11 @@
          function InitAd() 
          {
          console.log('Start load...');
+          VK.init(function() {
+          console.log("VK was init...");
+          }, function() {
+          console.log("VK wasnt init...");
+         }, '5.130');
          window.addEventListener('load', function() {	
          
          var user_id = null; // user's id
