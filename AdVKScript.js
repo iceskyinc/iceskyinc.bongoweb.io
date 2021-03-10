@@ -27,7 +27,7 @@ function showAdOnBegin(){
 
 function showAdOnGame(){
    if (window.location.toString().indexOf('vk.com') > 0 || window.location.toString().indexOf('m.vk.com') > 0) {
-      console.log('Start load...');
+      console.log('Load ad on game...');
       var user_id = null; // user's id
       var app_id = 7776768; // your app's id
 
