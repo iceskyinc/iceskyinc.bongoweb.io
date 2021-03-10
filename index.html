@@ -9,7 +9,7 @@
       <script type="text/javascript" src="//ad.mail.ru/static/admanhtml/rbadman-html5.min.js" charset="utf-8"></script>
       <script type="text/javascript" src="//vk.com/js/api/adman_init.js" charset="utf-8"></script>
       <script>
-         if(window.location.toString().indexOf('vk.com')>0)
+         if(window.location.toString().indexOf('vk.com')>0 || window.location.toString().indexOf('m.vk.com')>0)
          {
             window.addEventListener('load', function() {
          
@@ -39,7 +39,9 @@
          
          function InitAd() 
          {
-         console.log('Start load...');
+         if(window.location.toString().indexOf('vk.com')>0 || window.location.toString().indexOf('m.vk.com')>0)
+         {
+            console.log('Start load...');
          var user_id = null; // user's id
          var app_id = 7776768; // your app's id
          
@@ -59,6 +61,7 @@
          };
          
          function onNoAds() {console.log('No ad...');};
+         }
          }
       </script>
    </head>
